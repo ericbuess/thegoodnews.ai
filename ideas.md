@@ -11,6 +11,7 @@ To equip and empower churches to deepen faith, foster authentic connections, and
 - Faith-Driven: Every tool aligns with and reinforces the church's statement of faith
 - Human-Centered: AI serves to enhance, not replace, human interaction and relationships
 - Growth-Oriented: Focuses on practical application of Scripture and spiritual growth
+- Prayer-Centered: Supporting and enhancing prayer life while maintaining reverence
 - Inclusive and Accessible: Designed to serve diverse needs and promote inclusivity
 
 ## Immediate Priority Features (⭐)
@@ -33,6 +34,7 @@ To equip and empower churches to deepen faith, foster authentic connections, and
   - Direct users to appropriate staff/volunteers
   - Share sermon clips relevant to specific questions
 - Implementation Notes:
+  - Uses an LLM with custom church knowledge base and prompt engineering
   - Start with basic Q&A about events and programs
   - Expand to sermon content integration
   - Add personalized recommendations over time
@@ -48,6 +50,7 @@ To equip and empower churches to deepen faith, foster authentic connections, and
   - Prayer points for the family
 - Example Topics & Activities:
   - Sermon Theme: "Trust in God" (Based on Proverbs 3:5-6)
+    - Powered by an LLM with sermon analysis and family ministry prompts
     - Lunch Questions:
       1. "When was a time you had to trust God even though you were scared?"
       2. "How does our family show we trust God in daily decisions?"
@@ -82,6 +85,7 @@ To equip and empower churches to deepen faith, foster authentic connections, and
   - Event planning input
   - Communication effectiveness review
 - Implementation Notes:
+  - Uses multiple instances of an LLM with different persona prompts
   - Begin with 3-4 core personas
   - Add more specialized personas over time
   - Include demographic-specific insights
@@ -95,11 +99,29 @@ To equip and empower churches to deepen faith, foster authentic connections, and
   - Verse memorization system
   - Commentary integration
   - Cross-reference explorer
+  - AI Implementation: an LLM with biblical knowledge base
 - Spiritual Growth Tracking:
   - Growth milestone tracking
   - Next steps recommendations
   - Accountability partner matching
-  - Prayer partner connections
+  - AI Implementation: Recommendation system using embeddings
+- Prayer Support System:
+  - Guided Prayer Experience:
+    - Structured prayer templates
+    - Scripture-based prayer prompts
+    - Contextual prayer suggestions
+    - AI Implementation: an LLM with prayer and Scripture database
+  - Prayer Training:
+    - Interactive prayer tutorials
+    - Biblical prayer examples
+    - Customized practice sessions
+    - AI Implementation: an LLM with educational prompts
+  - Prayer Partner Connection:
+    - Text-based prayer guidance
+    - Optional voice-based prayer companion (future)
+    - Smart prayer topic suggestions
+    - AI Implementation: Initial phase uses text generation, future phase adds Claude-3 voice model
+    - Privacy-focused design with clear AI disclosure
 - Implementation Notes:
   - Start with basic Bible reading plans
   - Add accountability features
@@ -118,6 +140,7 @@ To equip and empower churches to deepen faith, foster authentic connections, and
   - Resource recommendations
   - Connection to live support
 - Implementation Notes:
+  - Uses an LLM with apologetics training data
   - Begin with basic Q&A
   - Add conversation simulations
   - Expand to full training system
@@ -136,6 +159,7 @@ To equip and empower churches to deepen faith, foster authentic connections, and
   - Cultural adaptations
   - Length variations
 - Implementation Notes:
+  - Uses an LLM with sermon analysis capabilities
   - Start with basic analysis
   - Add illustration generation
   - Expand to multiple formats
